@@ -97,7 +97,7 @@ class DocumentVault:
             self.client = Client()
             self.client.set_endpoint('https://fra.cloud.appwrite.io/v1')
             self.client.set_project('6829cc6a001a39af7849') 
-            self.client.set_key('standard_7a3ab5176465c933a0f284eb44f55d5884de177dfe087a59805d7722c9097e2f14f20a2658b1d7db286a35abe89c75e612f22f7f9e4f4410734f2e15803da451715969b3b18a181339108e1221bbf01c4e1d46e63497f044ca9ee091cf115ebd5a156e526d6db923ba8cd0c72413b69bf7a1bc13c00b382f9bb1e6622ebca196')
+            self.client.set_key('your key')
             
             self.storage = Storage(self.client)
             self.databases = Databases(self.client)
